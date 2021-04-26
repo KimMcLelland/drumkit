@@ -14,11 +14,14 @@ document.addEventListener("keydown", event => {
     }
 })
 
+
 document.addEventListener("keydown", event => {
     if (event.keyCode === 76) {
         snare.play();
     }
 })
+
+
 
 document.addEventListener("keydown", event => {
     if (event.keyCode === 67) {
